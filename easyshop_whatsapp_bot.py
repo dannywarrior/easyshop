@@ -1,6 +1,6 @@
 # EASYSHOP - Módulo 1: Integración WhatsApp con Python usando Twilio
 
-from flask import Flask, request
+from flask import Flask, render_template
 from twilio.twiml.messaging_response import MessagingResponse
 
 app = Flask(__name__)
